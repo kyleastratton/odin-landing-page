@@ -17,8 +17,12 @@ h3 {
   font-weight: bolder;
 }
 
-p {
+.light-text {
   color: #e5e7eb;
+}
+
+.dark-text {
+  color: #1f2937
 }
 
 .quote-text {
@@ -29,11 +33,17 @@ p {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
+  /* margin: 0; */
 }
 
 .center {
   margin: auto;
   text-align: center;
+  align-items: center;
+}
+
+.width-fifty {
+  width: 50%;
 }
 
 .right {
@@ -85,9 +95,9 @@ nav {
 }
 
 section {
-  height: 24rem;
+  height: 28rem;
   width: 100%;
-  padding: 4rem 10rem;
+  padding: 4rem 4rem;
 }
 
 .flex-container {
@@ -105,10 +115,15 @@ section {
   justify-content: space-between;
   margin: auto;
   padding: 0rem 10rem;
-  margin-top: 4rem;
+  margin: 4rem 0rem;
 }
 
-button {
+.button-box {
+  width: 8rem;
+  text-align: center;
+}
+
+.big-button {
   height: 8rem;
   width: 8rem;
   border: 2px solid #3882f6;
@@ -117,4 +132,34 @@ button {
 
 .quote {
   padding: 0rem 10rem;
+}
+
+.calltoaction {
+  background-color: #3882f6;
+  height: 7rem;
+  border-radius: 1rem;
+  width: 80%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-button {
+  background-color: #3882f6;
+  border: 1px solid #f9faf8;
+  border-radius: 0.5rem;
+  color: #f9faf8;
+  padding: 1rem 2rem;
+}
+
+.calltoaction-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 2rem;
+  margin-top: 6rem;
 }
